@@ -11,7 +11,6 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("GO!")
     count = randint(3, 15)
     while (count != 0) {
-        strip.showColor(neopixel.colors(NeoPixelColors.Blue))
         strip.showColor(neopixel.colors(NeoPixelColors.White))
         basic.pause(1000)
         count += -1
